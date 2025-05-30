@@ -10,8 +10,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - Second Page.qmd
+      - text: About me
+        menu: 
+          - text: Section 1 
+            href: Section1.qmd
+          - text: Section 2
+            href: Section2.qmd
+          - text: Section 3
+            href: Section3.qmd
 
 format:
   html:
