@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs # setting the output directory to docs
 
 website:
   title: "oregel714.github.io"
