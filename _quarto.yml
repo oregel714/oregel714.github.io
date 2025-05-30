@@ -12,12 +12,14 @@ website:
         text: Home
       - text: About me
         menu: 
-          - text: Section 1 
+          - text: Photography 
             href: Section1.qmd
-          - text: Section 2
+          - text: Soils 
             href: Section2.qmd
-          - text: Section 3
+          - text: Guitars
             href: Section3.qmd
+      - href: Second Page.qmd
+        text: Second Page
 
 format:
   html:
