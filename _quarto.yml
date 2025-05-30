@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs # setting the output directory to docs
+  resources: 
+    - media/**
 
 website:
   title: "oregel714.github.io"
