@@ -20,3 +20,8 @@ knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/land
 #| messages: FALSE
 knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/point.jpeg")
 ```
+
+```{r, echo=FALSE, out.width="50%", fig.cap="Iris instructing students how to read a local soils map."}
+#| messages: FALSE
+knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/iris.jpeg")
+```
