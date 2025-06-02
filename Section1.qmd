@@ -1,5 +1,10 @@
 ---
-title: "Section1"
+title: "Photography"
 format: html
 ---
+
+I first started taking pictures when I was in high school, more specifically, in my introduction to photography class my freshman year. Ever since then, I’ve spent a lot of time and effort honing my ability to take the kinds of pictures that I enjoy taking. There’s nothing very professional or intrinsically valuable about my photography, however, I can say that I really enjoy my own work and the scenes that I observe and choose to capture. I hope you enjoy them too. 
+```{r}
+knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/mark.jpeg")
+```
 

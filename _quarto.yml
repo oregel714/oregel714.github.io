@@ -14,9 +14,9 @@ website:
         menu: 
           - text: Photography 
             href: Section1.qmd
-          - text: Soils 
+          - text: Soils Experience
             href: Section2.qmd
-          - text: Guitars
+          - text: Guitars and Music
             href: Section3.qmd
       - href: Second Page.qmd
         text: Second Page

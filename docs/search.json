@@ -4,7 +4,21 @@
     "href": "index.html",
     "title": "Mark Oregel",
     "section": "",
-    "text": "My name is Mark Oregel. I’m from Santa Ana, California, and I’m studying Environmental Studies (B.A.) at the University of California, Santa Barbara. I am currently a Garden Operator at the Green House and Garden Project, a community garden located in Isla Vista. I enjoy playing guitar, going on runs, and taking pictures.\n\n1 + 1\n\n[1] 2"
+    "text": "My name is Mark Oregel. I’m from Santa Ana, California, and I’m studying Environmental Studies (B.A.) at the University of California, Santa Barbara. I am currently a Garden Operator at the Green House and Garden Project, a community garden located in Isla Vista. I enjoy playing guitar, going on runs, and taking pictures.\nMy future plans involve going back to school and working towards getting certified in something environmentally related. This can be in the form of an engineering certificate, GIS certification, or even a master’s degree in an environmental field. I really enjoyed the soils classes that I took in my undergrad, and I hope to pursue something related to working with farmers or underprivileged communities to ensure they’re protected from malpractice or exploitation. My goal thus far in my education has been to be able to give back to my community in whatever I end up choosing as a career. I look forward to the coming years after my graduation.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Section3.html",
+    "href": "Section3.html",
+    "title": "Guitars and Music",
+    "section": "",
+    "text": "I started playing guitar in 2023, but really took to it once I moved to Santa Barbara for school. I understand that it’s a cliche to take up the guitar in college, however, I understand why now. Not just the guitar, but certainly playing any instrument is an excellent use of one’s time and energy. In this day and age, it’s so easy to get sucked into your phone or your computer screen. An instrument allows you to disconnect from everything else and plug into something that is difficult and requires you to focus to achieve proficiency. Once you’ve practiced enough, you can begin to express yourself, and I find that really beautiful."
+  },
+  {
+    "objectID": "Section1.html",
+    "href": "Section1.html",
+    "title": "Photography",
+    "section": "",
+    "text": "I first started taking pictures when I was in high school, more specifically, in my introduction to photography class my freshman year. Ever since then, I’ve spent a lot of time and effort honing my ability to take the kinds of pictures that I enjoy taking. There’s nothing very professional or intrinsically valuable about my photography, however, I can say that I really enjoy my own work and the scenes that I observe and choose to capture. I hope you enjoy them too.\n\nknitr::include_graphics(\"/Users/swaggerboy/github/oregel714.github.io/media/mark.jpeg\")"
   },
   {
     "objectID": "about.html",
