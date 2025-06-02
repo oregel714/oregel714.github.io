@@ -37,3 +37,15 @@ knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/meli
 #| messages: FALSE
 knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/ethan.jpeg")
 ```
+
+```{r, echo= FALSE, out.width="50%", fig.cap="Kelechi"}
+#| messages: FALSE
+knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/kelechi.jpeg")
+
+```
+
+```{r, echo= FALSE, out.width="50%", fig.cap="Anisha"}
+#| messages: FALSE
+knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/anisha.jpeg")
+
+```
