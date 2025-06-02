@@ -19,7 +19,9 @@ website:
           - text: Guitars and Music
             href: Section3.qmd
       - href: Second Page.qmd
-        text: Second Page
+        text: Project Page
+      - href: CV.qmd
+        text: CV/Resume 
 
 format:
   html:
