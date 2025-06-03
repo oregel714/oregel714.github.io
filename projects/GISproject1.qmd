@@ -1,0 +1,16 @@
+---
+title: "GIS: Human Impact on Puma Movement"
+format: html
+
+toc: true
+---
+
+## Overview
+
+## GIS Report:
+
+![](files/geog176paper.pdf){width="95%" height="700"}
+
+## Final Map:
+
+![](files/pumamap.png){width="50%" height 500}

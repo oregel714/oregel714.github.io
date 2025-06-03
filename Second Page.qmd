@@ -1,5 +1,17 @@
 ---
-title: "Second Page"
+title: "Projects"
+listing:
+  contents: projects
+  sort: false
+  type: grid
+  image-align: right
+  max-description-length: 350
+  date-format: medium
+  categories: false
+page-layout: article
+freeze: auto
+editor: source
+toc: false
 format: html
 ---
 

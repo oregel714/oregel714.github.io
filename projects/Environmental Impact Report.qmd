@@ -1,0 +1,29 @@
+---
+title: "Environmental Impact Report"
+format: html
+image: media/eirimage.jpeg
+toc: true
+---
+
+## Overview 
+
+
+
+
+## Final Report 
+
+Full EIR: 
+
+![](files/FinalEIR.pdf){width="95%" height="700"}
+
+
+
+
+
+
+
+
+
+
+
+
