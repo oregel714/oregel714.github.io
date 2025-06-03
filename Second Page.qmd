@@ -5,7 +5,7 @@ listing:
   sort: false
   type: grid
   image-align: right
-  max-description-length: 350
+  max-description-length: 20
   date-format: medium
   categories: false
 page-layout: article

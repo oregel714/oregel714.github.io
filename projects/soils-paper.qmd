@@ -1,0 +1,14 @@
+---
+title: "ENV S 114B: Final Field Summary"
+format: html
+toc: false
+---
+
+## Overview 
+
+This is a final paper that I wrote as a compilation of the various locations visited throughout the quarter to dig soil pits and classify each soil in its unique environment. This paper draws on information that was synthesized through weekly field reports charts that we used to track soil characteristics. 
+
+## Cumulative Soils Report: 
+
+![](files/finalsoilpaper.pdf){width="75%" height="700"}
+

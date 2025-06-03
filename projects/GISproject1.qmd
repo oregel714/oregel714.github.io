@@ -1,11 +1,12 @@
 ---
 title: "GIS: Human Impact on Puma Movement"
 format: html
-
-toc: true
+toc: false
 ---
 
 ## Overview
+
+In GEOG 176A - Introduction to GIS, the final project that my group and I chose to work on involved mapping puma movement using tracking-collar data as well as human development in south-central Utah. Our goal was to determine if there was any correlation between areas where there are high amounts of human development, such as railways, buildings, and roads,  and puma movement. 
 
 ## GIS Report:
 
@@ -13,4 +14,4 @@ toc: true
 
 ## Final Map:
 
-![](files/pumamap.png){width="50%" height 500}
+![](files/pumamap.png)
