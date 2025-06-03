@@ -20,8 +20,8 @@ website:
             href: Section3.qmd
       - href: Second Page.qmd
         text: Project Page
-      - href: CV.qmd
-        text: CV/Resume 
+      - href: Rowing.qmd
+        text: Rowing 
 
 format:
   html:

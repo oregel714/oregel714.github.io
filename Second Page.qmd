@@ -5,12 +5,12 @@ listing:
   sort: false
   type: grid
   image-align: right
-  max-description-length: 20
+  max-description-length: 50
   date-format: medium
   categories: false
 page-layout: article
 freeze: auto
-editor: source
+editor: visual
 toc: false
 format: html
 ---
