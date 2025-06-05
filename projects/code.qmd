@@ -1,0 +1,113 @@
+---
+title: "ENV S 193DS: Coding Work"
+format: html
+toc: FALSE 
+---
+
+## Overview: 
+
+The following code chunks are from a homework assignment for my EVN S 193DS class where our objective was to visualize personal observed data that we'd been collecting throughout the quarter. In the code check below, I'm reading in my necessary packages that I used to organize and work on the assignment. Additionally, I read in my personal data, titled "DataSheet(1) copy.csv)", and turned it into an object titled "ActiveData1" to make it easier to work with.   
+
+
+```{r, message=FALSE}
+show_col_types = FALSE
+
+library(tidyverse)
+library(here)
+library(gt)
+library(janitor)
+
+ActiveData1 <- read_csv("DataSheet(1) copy.csv")
+```
+
+## Data Wrangling and Calculations 
+
+The next code chunk contains the code necessary to wrangle the specific data columns that I want to use for my analysis. I created another object and selected the 'Long Day' and 'Money Spent' columns and calculated the average money spent on long days. I then created another object titled 'average_money_summary' which I used to create a group using the 'Long Day' data. I then summarized calculations of mean money spent, standard deviation, standard error, and the upper and lower quartiles. Lastly, I rounded the values to one decimal place. 
+
+```{r} 
+# creating `average_money_summary` before so R can read it in order to render 
+money_spent_long_day <- ActiveData1 |> # creating new object from 'ActiveData1' to 'money_spent_long_day'
+  select(`Long Day`, `Money Spent`) # selecting `Long Day` and `Money Spent` 
+
+average_money_summary <- money_spent_long_day |> # create new object from `money_spent_long_day` to `average_money_summary` 
+  group_by(`Long Day`) |>  # grouping by `Long Day` points 
+  summarize(mean = mean(`Money Spent`), # summarizing the mean from `Money Spent` 
+            sd = sd(`Money Spent`), # calculating the standard deviation from `Money Spent` 
+            se = sd / sqrt(n()), # calculating standard error from standard deviation 
+            ci_lower = mean - qt(0.975, df = n() - 1) * se, # calculating the upper and lower quartile 
+            ci_upper = mean + qt(0.975, df = n() - 1) * se) |> 
+  
+  
+  mutate(across(c(mean, sd, se, ci_lower, ci_upper), # round mean, sd, se, ci upper and lower to one decimal place 
+                ~ round(.x, 1)))
+```
+
+## Creating a Table 
+
+The following code chunk expresses the information that was calculated above but in a table format where I changed the labels to reflect the information displayed. 
+
+```{r}
+#| message: false
+average_money_summary |> # start with average_money_summary
+  gt() |> # calling in the 'gt' table function 
+  cols_label( # labeling the different aspects of the table by their full names
+    `Long Day` = "Long Day",
+    mean = "Mean",
+    sd = "Standard Deviation",
+    se = "Standard Error",
+    ci_lower = "95% Confidence Level (Lower)",
+    ci_upper = "95% Confidence Level (Upper)"
+    
+  ) |> 
+  tab_header(title = "Money Spent Summary Statistics") # setting the title as "Money Spent Summary Statistics" 
+
+
+```
+
+## Visualizing the Data 
+
+The following code chunk contains the code needed to make a visualization of my personal data along with the calculations that I made earlier (standard deviation, standard error, upper and lower quartiles). I started by choosing the data object 'average_money_summary' to 
+
+```{r}
+#| message: false
+
+ggplot(data = average_money_summary, # starting with data frame 
+       aes(x = `Long Day`, # label x-axis as 'Long Day'
+           y = `mean`, # label y-axis as 'mean' 
+           fill = `Long Day`)) + # fill color for 'Long Day' variable 
+  geom_jitter(data = ActiveData1, # use jitterplot function starting with 'ActiveData1' data frame 
+              aes(x = `Long Day`, # set x-axis as Long Day for jitterplot 
+                  y = `Money Spent`, # set y-axis as Money Spent  
+                  color = `Long Day`), # use color for Long Day variable
+              shape = 18, # setting open circle for shape 
+              alpha = 1, # setting transparency 
+              size = 2, # setting size of points 
+              height = 0, # disabling vertical jitter points 
+              width = 0.1) + # enabling horizontal jitter points 
+  geom_errorbar(aes(ymin = mean - se, # creating errorbar and creating the upper and lower edges of the standard error 
+                    ymax = mean + se),
+                width = 0.1, # setting width of the caps
+                color = "black" # setting color to black 
+                ) + 
+  geom_point(data = average_money_summary, # adding primary data frame to display on top of the previously displayed data 
+             aes(x = `Long Day`, # setting x-axis as 'Long Day'
+                 y = `mean`), # setting y-axis as mean money spent   
+             inherit.aes = FALSE, # seperating new aesthetics from the previous aesthetics 
+             color = "black", # setting color to black for mean point 
+             size = 2) + # setting size to 2 
+  theme(panel.background = element_rect(fill = "white"), # filling background with white to disable panels 
+        panel.grid.major = element_line(color = NA), # disabling major panel lines 
+        panel.grid.minor = element_line(color = NA), # disabling minor panel lines 
+        legend.position = "none", # disabling the legend from showing up 
+        axis.line = element_line(color = "black")) + # setting color of axis lines to black 
+  scale_color_manual(values = c("Yes" = "dodgerblue", # setting color of 'yes' money points to dodgerblue 
+                                "No" = "firebrick")) + # setting color of "no" money points to firebrick 
+          
+  # manually setting title to 'Money Spent on Campus with Standard Deviation and Standard Error', adding subtitle to 'By Mark Oregel', changing y-axis name to 'Money Spent (dollars)', changing x-axis name to 'Long Day'. 
+  labs(title = "Money Spent on Campus with Standard Deviation and Standard Error",
+       subtitle = "By Mark Oregel",
+       y = "Money Spent (dollars)",
+       x = "Long Day") 
+  
+
+```

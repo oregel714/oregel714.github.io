@@ -20,5 +20,25 @@ Eventually, after attending a few practices, I realized how unique of a position
 
 Waking up at four in the morning five days out of the week wasn't exactly the most attractive aspect of being part of the team, however, it kept me disciplined in completing my homework in a timely manner. I had not realized how much I relied on staying up late to complete assignments until I couldn't afford to. Staying up till 12 AM doing homework meant only four hours of sleep before having to get up for practice. Yeah, not happening. 
 
-After a few weeks, I was in it. I started working out with the team because a coxswain who trains with their crew gains their trust and maybe some respect. My word was the final say, no ifs, ands, or buts. If I said to keep rowing over a waterfall, they'd better buckle up without a peep. They needed to be able to trust my calls on a dime without any form of hesitation, I needed to be able to trust that they would do what I demanded of them. Building this mutual respect would require showing them that I'm not just sitting pretty in the boat all the time, but that I too am familiar with their pain as we're barreling towards the finish line with fatigue fully setting in. 
+After a few weeks, I was in it. I started working out with the team because a coxswain who trains with their crew gains their trust and maybe some respect. My word was the final say, no ifs, ands, or buts. If I said to keep rowing over a waterfall, they'd better buckle up without a peep. They needed to be able to trust my calls on a dime without any form of hesitation, I needed to be able to trust that they would do what I demanded of them. Building this mutual respect would require showing them that I'm not just sitting pretty in the boat all the time, but that I too am familiar with their pain as we're barreling towards the finish line with fatigue fully setting in.
 
+![](rowing/rowingpics/pilot.jpeg){width=50%}![](rowing/rowingpics/jump.jpeg){width="50%"}
+
+It took me a while to get acclimated to the rigor of both the schedule and the training. Since I was a coxswain, I wasn't required to erg or do the regular training that many of the rowers were required to do. I admired their dedication to putting in the hours of training that they so willingly put in. Erging is not an easy task to simply perform but I suppose that when you get to the level that the rowers were on, you could erg for what seemed like forever. Some would play movies or shows during hour-long erg sessions, maintaining consistency with their pacing and form. I would begin to dwindle after just twenty minutes. 
+
+![](rowing/rowingpics/brothers.jpeg){width="50%"}![](rowing/rowingpics/lone.jpeg){width="50%"}
+
+## Competition 
+
+My time coxing for the men's novice 8 was short as I only stayed for Winter and Spring quarters. In my time on the team, I got to experience two instances of real competition. The first is when we faced off against OCC right before spring break of 2024 and the second was later that same year at WIRA: Western Intercollegiate Rowing Association Championship. This was an incredibly nerve-racking experience for me as I was still new to coxing and had never coxed in such an intense environment. We were up against seven other boats, I honestly can't even remember the place we came in. I just remember how fun it was to see the novice men give it their all in the seven minutes and thirty seconds that it took us to get to the finish line. 
+
+![](rowing/rowingpics/coach.jpeg){width="50%"}![](rowing/rowingpics/spotlight.jpeg){width="50%"}
+
+## Conclusion
+
+In conclusion, I'm incredibly thankful for my experience on the rowing team. Although I did not get to row, I thoroughly enjoyed experiencing the training and disciplinary aspects that make rowing an infamous college sport. I met many wonderful people who made me feel apart of the team with their willingness to support one another and their drive to be better. It inspired me to be the best cox I could be for the novice men, and even outside of rowing, to be the best version of myself for those around me. 
+
+```{r, echo=FALSE, out.width="50%", fig.align='center', fig.cap="Me on the left, Holden on the right, Sudarshan in the corner."}
+#| messages: FALSE
+knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/rowing/rowingpics/mwah.jpeg")
+```
