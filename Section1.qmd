@@ -2,6 +2,7 @@
 title: "Photography"
 format: html
 css: styles.css
+toc: false
 ---
 
 I first started taking pictures when I was in high school, more specifically, in my introduction to photography class my freshman year. Ever since then, I’ve spent a lot of time and effort honing my ability to take the kinds of pictures that I enjoy taking. There’s nothing very professional or intrinsically valuable about my photography, however, I can say that I really enjoy my own work and the scenes that I observe and choose to capture. I hope you enjoy them too.
@@ -12,6 +13,8 @@ knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/mark
 ```
 
 I've had the privilege of being surrounded by people who allow me to photograph them in their environments, thus allowing me to capture their candid likeness. To me, this is the most critical part of my work, and to be completely honest, the reason why I do it in the first place. The following photos are some of my favorite portraits that I've taken of my friends.
+
+# Portraits: 
 
 
 
