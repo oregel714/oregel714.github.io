@@ -14,7 +14,7 @@ about:
       text: GitHub
       href: https://github.com/oregel714
     - icon: envelope
-      text: Email
+      text: Resume
       href: oregel991@gmail.com
 ---
 

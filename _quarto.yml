@@ -28,6 +28,8 @@ format:
     theme:
       light: zephyr
       dark: solar
+    mainfont: "Raleway"
+    headingfont: "Times New Roman"
     css: styles.css
     toc: true
     page-layout: full

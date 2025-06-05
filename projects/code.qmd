@@ -66,7 +66,7 @@ average_money_summary |> # start with average_money_summary
 
 ## Visualizing the Data 
 
-The following code chunk contains the code needed to make a visualization of my personal data along with the calculations that I made earlier (standard deviation, standard error, upper and lower quartiles). I started by choosing the data object 'average_money_summary' to 
+The following code chunk contains the code needed to make a visualization of my personal data along with the calculations that I made earlier (standard deviation, standard error, upper and lower quartiles). I started by using the data object that I created earlier to create underlying data set while placing my original data (ActiveData1) over it. I also added an error bar displaying the standard error and mean. 
 
 ```{r}
 #| message: false
@@ -111,3 +111,6 @@ ggplot(data = average_money_summary, # starting with data frame
   
 
 ```
+### Caption: 
+
+This jitter plot displays a comparison of money spent on campus between long and short days. Each point represents a daily observation with the red and blue dots indicating individual spending. The black points represent the group means and the error bars show the standard error of the mean. 
