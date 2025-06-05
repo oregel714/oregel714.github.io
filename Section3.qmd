@@ -3,20 +3,22 @@ title: "Guitars and Music"
 format: html
 ---
 
-I started playing guitar in 2023, but really took to it once I moved to Santa Barbara for school. I understand that it’s a cliche to take up the guitar in college, however, I understand why now. Not just the guitar, but certainly playing any instrument is an excellent use of one’s time and energy. In this day and age, it’s so easy to get sucked into your phone or your computer screen. An instrument allows you to disconnect from everything else and plug into something that is difficult and requires you to focus to achieve proficiency. Once you’ve practiced enough, you can begin to express yourself, and I find that really beautiful. 
+I started playing guitar in 2023, but really took to it once I moved to Santa Barbara for school. I understand that it’s a cliche to take up the guitar in college, however, I understand why now. Not just the guitar, but certainly playing any instrument is an excellent use of one’s time and energy. In this day and age, it’s so easy to get sucked into your phone or your computer screen. An instrument allows you to disconnect from everything else and plug into something that is difficult and requires you to focus to achieve proficiency. Once you’ve practiced enough, you can begin to express yourself, and I find that really beautiful.
 
-Here are some photos of my guitars: 
-```{r, echo=FALSE, out.width="50%", fig.cap="PIan holding his squier"}
+Here are some photos of my guitars:
+
+```{r, echo=FALSE, out.width="50%", fig.cap="Ian holding his squier"}
 #| messages: FALSE
 knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/ian.jpeg")
 ```
-At a Christmas party in 2012, my cousin Ian (pictured above) approached my brother and I with a guitar in his hands and a Santa Beard poorly taped on his face. The guitar is a 2003 Squier Stratocaster and it was the first guitar I'd ever really played. It was actually meant for my brother but he took it to boarding school where it was promptly mounted onto the wall because "it looked cool" and never played. Eventually Eric went to college and, before he could display it in his dorm room once more, I stole it from him on the basis that I would try to learn it. It now leans proudly against an unmounted Smiths poster and next to my computer for when I feel the urge to thrash on it. 
+
+At a Christmas party in 2012, my cousin Ian (pictured above) approached my brother and I with a guitar in his hands and a Santa beard poorly taped on his face. The guitar was a 2003 Squier Stratocaster and it was the first guitar I'd ever really played. It was actually meant for my brother but he took it to boarding school where it was promptly mounted onto the wall because "it looked cool" and never played. Eventually Eric went to college and, before he could display it in his dorm room once more, I stole it from him on the basis that I would try to learn it. It now leans proudly against an unmounted Smiths poster and next to my computer for when I feel the urge to thrash on it.
 
 ```{r, echo=FALSE, out.width="50%", fig.cap="Jazz Master B)"}
 #| messages: FALSE
 knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/jazzmaster.jpeg")
 ```
 
-Since the summer of 2024 when I lived in IV for summer sessions at UCSB, I was perusing Facebook market place one day and found this awesome Squier Jazzmaster for sale just down the street from me. Two days later and it was leaning right next to my first guitar at the foot of my bed. 
+Since the summer of 2024 when I lived in IV for summer sessions at UCSB, I was perusing Facebook market place one day and found this awesome Squier Jazzmaster for sale just down the street from me. Two days later and it was leaning right next to my first guitar at the foot of my bed.
 
-I think it's awesome that I've been able to play the guitar that my cousin used to play when he was in a band. There's something special to me about the idea that I'm playing the same guitar he used to play. I don't know why, I just can't shake it. 
+I think it's awesome that I've been able to play the guitar that my cousin used to play when he was in a band. There's something special to me about the idea that I'm playing the same guitar he used to play. I don't know why, I just can't shake it.

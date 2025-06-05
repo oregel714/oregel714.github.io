@@ -2,27 +2,16 @@
 title: "Focused Environmental Impact Report - Recreational Resources"
 format: html
 toc: false
+image: files/eirimage.jpeg
 ---
 
-## Overview 
 
-This focused environmental impact report (FEIR) was completed as a result of ENV S 165B Impact Analysis wherein the goal is to complete an FEIR given a hypothetical development scenario. Using the skills we learned in the class, we conducted a site visit and determined environmental impacts of a hypothetical housing development to be located at Campus Point on the UCSB campus. While hypothetical, most aspects of the class were treated as a real scenario. We worked with maps and figures of the proposed development site creating visualizations to convey any and all impacts on our resource of choice. I chose to write about Recreational Resources.  
+## Overview
 
+This focused environmental impact report (FEIR) was completed as a result of ENV S 165B Impact Analysis wherein the goal is to complete an FEIR given a hypothetical development scenario. Using the skills we learned in the class, we conducted a site visit and determined environmental impacts of a hypothetical housing development to be located at Campus Point on the UCSB campus. While hypothetical, most aspects of the class were treated as a real scenario. We worked with maps and figures of the proposed development site creating visualizations to convey any and all impacts on our resource of choice. I chose to write about Recreational Resources.
 
-## Final Report 
+## Final Report
 
-Full EIR: 
+Full EIR:
 
 ![](files/FinalEIR.pdf){width="95%" height="700"}
-
-
-
-
-
-
-
-
-
-
-
-

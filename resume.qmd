@@ -1,5 +1,11 @@
 ---
-title: "resume"
+title: "Resume"
 format: html
+toc: false
+css: styles.css
 ---
 
+Attached below is my resume, please reach out to me if you have any questions. My email is oregel991@gmail.com. 
+
+
+![](resume/resume.pdf){width="95%" height="700"}

@@ -4,10 +4,9 @@ format: html
 toc: FALSE 
 ---
 
-## Overview: 
+## Overview:
 
-The following code chunks are from a homework assignment for my EVN S 193DS class where our objective was to visualize personal observed data that we'd been collecting throughout the quarter. In the code check below, I'm reading in my necessary packages that I used to organize and work on the assignment. Additionally, I read in my personal data, titled "DataSheet(1) copy.csv)", and turned it into an object titled "ActiveData1" to make it easier to work with.   
-
+The following code chunks are from a homework assignment for my EVN S 193DS class where our objective was to visualize personal observed data that we'd been collecting throughout the quarter. In the code check below, I'm reading in my necessary packages that I used to organize and work on the assignment. Additionally, I read in my personal data, titled "DataSheet(1) copy.csv)", and turned it into an object titled "ActiveData1" to make it easier to work with.
 
 ```{r, message=FALSE}
 show_col_types = FALSE
@@ -20,11 +19,11 @@ library(janitor)
 ActiveData1 <- read_csv("DataSheet(1) copy.csv")
 ```
 
-## Data Wrangling and Calculations 
+## Data Wrangling and Calculations
 
-The next code chunk contains the code necessary to wrangle the specific data columns that I want to use for my analysis. I created another object and selected the 'Long Day' and 'Money Spent' columns and calculated the average money spent on long days. I then created another object titled 'average_money_summary' which I used to create a group using the 'Long Day' data. I then summarized calculations of mean money spent, standard deviation, standard error, and the upper and lower quartiles. Lastly, I rounded the values to one decimal place. 
+The next code chunk contains the code necessary to wrangle the specific data columns that I want to use for my analysis. I created another object and selected the 'Long Day' and 'Money Spent' columns and calculated the average money spent on long days. I then created another object titled 'average_money_summary' which I used to create a group using the 'Long Day' data. I then summarized calculations of mean money spent, standard deviation, standard error, and the upper and lower quartiles. Lastly, I rounded the values to one decimal place.
 
-```{r} 
+```{r}
 # creating `average_money_summary` before so R can read it in order to render 
 money_spent_long_day <- ActiveData1 |> # creating new object from 'ActiveData1' to 'money_spent_long_day'
   select(`Long Day`, `Money Spent`) # selecting `Long Day` and `Money Spent` 
@@ -42,9 +41,9 @@ average_money_summary <- money_spent_long_day |> # create new object from `money
                 ~ round(.x, 1)))
 ```
 
-## Creating a Table 
+## Creating a Table
 
-The following code chunk expresses the information that was calculated above but in a table format where I changed the labels to reflect the information displayed. 
+The following code chunk expresses the information that was calculated above but in a table format where I changed the labels to reflect the information displayed.
 
 ```{r}
 #| message: false
@@ -64,9 +63,9 @@ average_money_summary |> # start with average_money_summary
 
 ```
 
-## Visualizing the Data 
+## Visualizing the Data
 
-The following code chunk contains the code needed to make a visualization of my personal data along with the calculations that I made earlier (standard deviation, standard error, upper and lower quartiles). I started by using the data object that I created earlier to create underlying data set while placing my original data (ActiveData1) over it. I also added an error bar displaying the standard error and mean. 
+The following code chunk contains the code needed to make a visualization of my personal data along with the calculations that I made earlier (standard deviation, standard error, upper and lower quartiles). I started by using the data object that I created earlier to create underlying data set while placing my original data (ActiveData1) over it. I also added an error bar displaying the standard error and mean.
 
 ```{r}
 #| message: false
@@ -111,6 +110,7 @@ ggplot(data = average_money_summary, # starting with data frame
   
 
 ```
-### Caption: 
 
-This jitter plot displays a comparison of money spent on campus between long and short days. Each point represents a daily observation with the red and blue dots indicating individual spending. The black points represent the group means and the error bars show the standard error of the mean. 
+### Caption:
+
+This jitter plot displays a comparison of money spent on campus between long and short days. Each point represents a daily observation with the red and blue dots indicating individual spending. The black points represent the group means and the error bars show the standard error of the mean.

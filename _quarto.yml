@@ -22,6 +22,8 @@ website:
         text: Project Page
       - href: Rowing.qmd
         text: Rowing 
+      - href: resume.qmd
+        text: Resume
 
 format:
   html:

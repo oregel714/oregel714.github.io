@@ -6,45 +6,34 @@ css: styles.css
 
 I first started taking pictures when I was in high school, more specifically, in my introduction to photography class my freshman year. Ever since then, I’ve spent a lot of time and effort honing my ability to take the kinds of pictures that I enjoy taking. There’s nothing very professional or intrinsically valuable about my photography, however, I can say that I really enjoy my own work and the scenes that I observe and choose to capture. I hope you enjoy them too.
 
-```{r, echo=FALSE, out.width="50%", fig.cap="Captured by Kacie Ta @ Harvey Film Labs (Check them out!)"}
+```{r, echo=FALSE, out.width="40%", fig.cap="Captured by Kacie Ta @ Harvey Film Labs (Check them out!)"}
 #| messages: FALSE
 knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/mark.jpeg")
 ```
 
 I've had the privilege of being surrounded by people who allow me to photograph them in their environments, thus allowing me to capture their candid likeness. To me, this is the most critical part of my work, and to be completely honest, the reason why I do it in the first place. The following photos are some of my favorite portraits that I've taken of my friends.
 
-```{r, echo= FALSE, out.width="50%", fig.cap="Mateo", fig.align='left'}
-#| messages: FALSE
-knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/mateo.jpeg")
-```
-```{r, echo= FALSE, out.width="50%", fig.cap="I and Hayden", fig.align='right'}
-#| messages: FALSE
-knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/hayden.jpeg")
-```
 
-```{r, echo= FALSE, out.width="50%", fig.cap="Kacie"}
-#| messages: FALSE
-knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/kacie.jpeg")
-```
 
-```{r, echo= FALSE, out.width="50%", fig.cap="Melissa"}
-#| messages: FALSE
-knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/melissa.jpeg")
-```
+![](media/hayden.jpeg){width=50%}![](media/mateo.jpeg){width=50%}
+Mark, Hayden, and Mateo
 
-```{r, echo= FALSE, out.width="50%", fig.cap="Ethan"}
-#| messages: FALSE
-knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/ethan.jpeg")
-```
+![](media/anisha.jpeg){width="50%"}![](media/kelechi.jpeg){width="50%"}
+Anisha and Kelechi
 
-```{r, echo= FALSE, out.width="50%", fig.cap="Kelechi"}
-#| messages: FALSE
-knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/kelechi.jpeg")
 
-```
 
-```{r, echo= FALSE, out.width="50%", fig.cap="Anisha"}
-#| messages: FALSE
-knitr::include_graphics("/Users/swaggerboy/github/oregel714.github.io/media/anisha.jpeg")
+![](media/kacie.jpeg){width=50%}![](media/reese.jpeg){width=50%}
+Kacie and Reese
 
-```
+![](media/ethan.jpeg){width=50%}![](media/melissa.jpeg){width=50%}
+Ethan and Melissa 
+
+
+
+![](media/annie.jpeg){width=50%}![](media/zack.jpeg){width=50%}
+Annie and Zach 
+
+
+
+
