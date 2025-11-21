@@ -16,7 +16,7 @@ website:
             href: Section1.qmd
           - text: Soils Experience
             href: Section2.qmd
-          - text: Guitars and Music
+          - text: Guitars
             href: Section3.qmd
       - href: Second Page.qmd
         text: Project Page

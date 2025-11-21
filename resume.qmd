@@ -5,7 +5,7 @@ toc: false
 css: styles.css
 ---
 
-Attached below is my resume, please reach out to me if you have any questions. My email is oregel991@gmail.com. 
+Attached below is my resume, please reach out to me if you have any questions. My email is oregel991\@gmail.com.
 
+![](resume/new_resume.pdf){width="95%" height="700"}
 
-![](resume/resume.pdf){width="95%" height="700"}
